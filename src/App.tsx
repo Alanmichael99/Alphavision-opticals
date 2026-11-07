@@ -266,12 +266,12 @@ function HeroSection() {
           />
           <div className="hero-photo-shade" aria-hidden="true" />
           <div className="hero-image-caption">
-            <span className="caption-icon" aria-hidden="true">
-              <Eye size={19} />
-            </span>
-            <span>
+            <span className="caption-copy">
               <strong>See with confidence</strong>
               <span>Care shaped around your vision</span>
+            </span>
+            <span className="caption-icon" aria-hidden="true">
+              <Eye size={19} />
             </span>
           </div>
           <div className="hero-index" aria-hidden="true">
@@ -380,7 +380,7 @@ function AboutSection() {
             </div>
           </div>
           <a className="text-link about-link" href="#contact">
-            Speak with our team <ArrowRight size={16} aria-hidden="true" />
+            Speak with your Optometrist <ArrowRight size={16} aria-hidden="true" />
           </a>
         </div>
       </div>

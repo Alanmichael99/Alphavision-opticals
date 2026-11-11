@@ -274,11 +274,6 @@ function HeroSection() {
               <Eye size={19} />
             </span>
           </div>
-          <div className="hero-index" aria-hidden="true">
-            <span>01</span>
-            <span />
-            <span>VISION CARE</span>
-          </div>
         </motion.div>
       </div>
 

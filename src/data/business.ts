@@ -5,6 +5,7 @@ import {
   Eye,
   Glasses,
   HeartPulse,
+  Home,
   MessageCircle,
   ScanEye,
   Sparkles,
@@ -39,6 +40,12 @@ export const services: {
     description:
       'A considered assessment of adult visual needs, with clear guidance on possible next steps.',
     icon: Eye,
+  },
+  {
+    name: 'Home Visit Vision Assessment',
+    description:
+      'A convenient vision assessment at home, with care tailored to your needs and guidance on suitable next steps.',
+    icon: Home,
   },
   {
     name: 'Child Vision Assessment',
